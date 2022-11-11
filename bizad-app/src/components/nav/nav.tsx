@@ -6,12 +6,12 @@ export const Nav = () => {
     <nav id="nav" className="navbar navbar-expand-lg text-bg-primary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          BizAd
         </a>
 
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-row ">
           <li className="nav-item px-2">
-            <Link to="/">BizAd</Link>
+            <Link to="/">BizAd Home</Link>
           </li>
           <li className="nav-item px-2">
             <Link to="/services">Services</Link>

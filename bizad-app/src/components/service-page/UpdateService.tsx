@@ -41,8 +41,8 @@ export const UpdateService = ({ user, setUser }: UpdateServiceProps) => {
   return (
     <div>
       <Header
-        description="Choose sevices that you would like to get from BizAd"
-        title="Services"
+        description="You may edit chosen service here"
+        title="Update Service"
       />
       <div className="d-flex justify-content-center ">
         <form style={{ maxWidth: "300px" }} onSubmit={handleAddService}>
