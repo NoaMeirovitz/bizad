@@ -1,0 +1,8 @@
+#home .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+#home .card-grid.list {
+  grid-template-columns: 1fr;
+}
